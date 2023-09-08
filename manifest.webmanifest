@@ -1,0 +1,18 @@
+{
+    "short_name": "Contagem de acesso",
+    "name": "Contagem de acesso | Difusora",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#ffffff",
+    "background-color": "#ffffff",
+    "description": "Aplicação feita por github.com/dhLra",
+    "icons": [
+        {
+            "src": "src/styles/images/logo.png",
+            "type": "image/png",
+            "sizes": "200x200"
+        }
+    ]
+}
