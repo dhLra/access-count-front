@@ -45,6 +45,7 @@ export default function HomePage() {
                     <label className='mb-1'>Selecione o andar de destino</label>
                     <select className='form-control'  {...register('destination')}>
                         <option selected>Selecione o local de destino</option>
+                        <option value={'0 Andar'}>0º Andar</option>
                         <option value={'6 Andar'}>6º Andar</option>
                         <option value={'7 Andar'}>7º Andar</option>
                         <option value={'8 Andar'}>8º Andar</option>
