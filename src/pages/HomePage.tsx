@@ -103,7 +103,7 @@ export default function HomePage() {
                         </form>
                     </div>
 
-                    {userDate.isAdmin !== 1 ?
+                    {userDate.user_type === 1 ?
                         <div className='col-sm-12 col-md-12 justify-content-center d-flex align-items-center'>
                             <button className='btn btn-primary' style={{ position: "relative", top: "150px" }}>Baixar Relatorio</button>
                         </div> : <></>}
